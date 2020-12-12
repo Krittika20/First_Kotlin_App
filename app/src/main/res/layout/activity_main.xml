@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:soundEffectsEnabled="true"
+    android:splitMotionEvents="true"
+    tools:context=".MainActivity"
+    android:background="#000">
+
+    <ImageView
+        android:id="@id/dice_image"
+        android:layout_width="332dp"
+        android:layout_height="317dp"
+        android:layout_gravity="center"
+        android:padding="@android:dimen/app_icon_size"
+        android:src="@drawable/dice_1" />
+
+    <Button
+        android:id="@+id/roll_button"
+        android:layout_width="135dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:background="#122068"
+        android:text="@string/roll"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:visibility="visible" />
+
+</LinearLayout>
